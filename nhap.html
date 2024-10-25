@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flower Shop</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #ffcccb;
+        }
+        h1 {
+            color: #d50000;
+        }
+        .container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .flower {
+            background: #ffffff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            width: 200px;
+            margin: 10px;
+            text-align: center;
+            padding: 15px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        button {
+            background-color: #d50000;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #a00000;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Flower Shop</h1>
+        <p>Discover the most beautiful flowers for every occasion!</p>
+    </header>
+    <div class="container">
+        <div class="flower">
+            <img src="https://example.com/rose.jpg" alt="Roses">
+            <h2>Roses</h2>
+            <p>Beautiful red roses. Perfect for romantic occasions.</p>
+            <button>Order Now</button>
+        </div>
+        <div class="flower">
+            <img src="https://example.com/tulips.jpg" alt="Tulips">
+            <h2>Tulips</h2>
+            <p>Bright and colorful tulips to brighten up your day.</p>
+            <button>Order Now</button>
+        </div>
+        <div class="flower">
+            <img src="https://example.com/lilies.jpg" alt="Lilies">
+            <h2>Lilies</h2>
+            <p>Elegant lilies for a sophisticated touch.</p>
+            <button>Order Now</button>
+        </div>
+    </div>
+</body>
+</html>
